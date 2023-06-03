@@ -11,6 +11,32 @@
  * 
  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
 console.log("Boas vindas ao jogo de BlackJack!");
 const decision = confirm("Quer iniciar uma nova rodada?")
 let carta1
@@ -31,9 +57,9 @@ if (decision) {
    `);
    if (pontuação === pontuaçãoComputador) {
       console.log("Empate");
-   } else if (pontuação > pontuaçãoComputador) {
+   } else if (pontuaçãoComputador > 21 || pontuação > pontuaçãoComputador ) {
       console.log("O usuário ganhou!");
-   } else if (pontuação < pontuaçãoComputador) {
+   } else if (pontuação > 21 || pontuação < pontuaçãoComputador) {
       console.log("O computador ganhou!");
    }
 
